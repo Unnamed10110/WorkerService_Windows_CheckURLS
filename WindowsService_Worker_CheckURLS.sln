@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32519.111
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerService_CheckURLS", "WorkerService_CheckURLS.csproj", "{0506BE5E-AC0E-4908-8A91-AA3E9A0C790E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0506BE5E-AC0E-4908-8A91-AA3E9A0C790E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0506BE5E-AC0E-4908-8A91-AA3E9A0C790E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0506BE5E-AC0E-4908-8A91-AA3E9A0C790E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0506BE5E-AC0E-4908-8A91-AA3E9A0C790E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A0F99D0-D725-4E60-AB43-5CE18888B04F}
+	EndGlobalSection
+EndGlobal

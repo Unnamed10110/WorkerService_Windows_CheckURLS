@@ -1,0 +1,13 @@
+﻿nuggets required:
+	- IHttpClientFactory
+	- serilog
+	- extensions.hosting.windowsservice // to run the worker as a windows service
+
++ Add the serilog configuration in appsettings
+
+
++ publish worker
+
++ in powershell, this command register the application as a windows service
+New-Service -Name {SERVICE NAME} -BinaryPathName {EXE FILE PATH} -Description "{DESCRIPTION}" -DisplayName "{DISPLAY NAME}" -StartupType Automatic
+	- e.g.: New-Service -Name WorkerServiceTest -BinaryPathName "F:\repos\c#\net_core\WindowsService_Worker_CheckURLS\bin\Release\net6.0\publish\WindowsService_Worker_CheckURLS.exe" -Description "This is a worker service application test" -DisplayName "Worker Service - Urls Checker " -StartupType Automatic 
